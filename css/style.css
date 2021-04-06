@@ -44,11 +44,7 @@ path{
     margin-top: -2px;
 }
 
-@font-face {
-    font-family: "roboto";
-    src: url("/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2"),
-
-   }
+/*--------------------------------------------------------------------------------------*/
 
 .element2 a{
     font-family: arial,sans-serif;
@@ -77,6 +73,12 @@ line-height: 36px;
 .element1 a:hover{
     text-decoration: underline;
 } 
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
 .middle{
 
     display: flex;
@@ -143,15 +145,9 @@ line-height: 36px;
   margin-top: 22px;
   }
 
-.loupe {
-height: 15px;
-width: auto;
-position: absolute;
-margin-top: 15px;
-margin-left: 16px;
-position: fixed;
-opacity: 0.8;
-}
+
+
+/*--------------------------------------------------------------------------------------*/
 
 input{
     width: 482px;
@@ -170,6 +166,28 @@ input{
    margin-left: 0px;
   }
 
+
+  input:hover{
+    box-shadow: inset 0 0em 0.5em rgba(0,0,0,0.1),
+    0 0  0 0px rgb(255,255,255),
+  0.2em 0.2em 0.5em rgba(117, 117, 117, 0.2);
+}
+
+
+  /*--------------------------------------------------------------------------------------*/
+
+
+  .loupe {
+    height: 15px;
+    width: auto;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 16px;
+    position: fixed;
+    opacity: 0.8;
+    }
+
+
   .mic{
     width: auto;
     height: 20px;
@@ -179,11 +197,7 @@ input{
     position: fixed;
   }
 
-  input:hover{
-      box-shadow: inset 0 0em 0.5em rgba(0,0,0,0.1),
-      0 0  0 0px rgb(255,255,255),
-    0.2em 0.2em 0.5em rgba(117, 117, 117, 0.2);
-  }
+  
 
   input[type="submit"]{
       
@@ -205,6 +219,9 @@ input{
       height: 36px;
   }
 
+  
+  /*--------------------------------------------------------------------------------------*/
+
 section{
     height: 100%;
     
@@ -217,7 +234,6 @@ section{
   }
 
   footer{
-      
     
       position: absolute;
       background: rgb(242, 242, 242);
@@ -286,3 +302,5 @@ section{
     height: 14.5px;
     width: auto;
 }
+
+  /*--------------------------------------------------------------------------------------*/
