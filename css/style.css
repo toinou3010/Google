@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    height: 95px;
+    height: 145px;
 }
 
 #conteneur
@@ -228,9 +228,61 @@ section{
   }
   
   .France{
-      height: 48px;
+     font-family: arial, sans-serif;
+      padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+
   }
 
   .footerNav{
-      height: 47px;
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
   }
+
+
+
+  #conteneur-1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+  
+.barr {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.elements{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+.elements a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.elements a:hover{
+    text-decoration: underline;
+}
+
+#feuille {
+    height: 14.5px;
+    width: auto;
+}
